@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Markers</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./styles/style.css">
+
+  </head>
+  <body>
+    <h1>Your places for rest</h1>
+    <a href="#" onclick="loadStavaPlaces()">Load places</a>
+    <div id="map"></div>
+
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6VYm9MlmVe_ybmLlQpakhszyLhqVINXg&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>   
+     <script src="./scripts/main.js">
+      
+    </script>
+  </body>
+</html>
