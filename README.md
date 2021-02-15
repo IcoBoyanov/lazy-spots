@@ -25,7 +25,7 @@ lazy-spots
 `lazy-spots` export several endpoints:
 
 | route | method | response | infog |
-| --- | -- -| --- | --- |
+| --- | --- | --- | --- |
 |`/login` | GET | - | redirects to the strava authentication endpoint |
 |`/athlete` | GET | [AthleteObject](https://developers.strava.com/docs/reference/#api-Athletes) | fetches your profile data from strava |
 |`/collect` | GET | - | collects all strava activities in minio |
